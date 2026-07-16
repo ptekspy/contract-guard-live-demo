@@ -6,7 +6,7 @@ paths:
   /health:
     get:
       summary: Health check
-      description: Deliberately incompatible demo change after webhook fix.
+      description: Deliberately incompatible demo change after payload fix.
       responses:
         "503":
           description: Service unavailable
