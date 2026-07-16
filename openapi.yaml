@@ -6,6 +6,7 @@ paths:
   /health:
     get:
       summary: Health check
+      description: Deliberately incompatible demo change.
       responses:
         "503":
           description: Service unavailable
